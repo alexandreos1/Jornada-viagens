@@ -37,13 +37,16 @@
   background-size: cover;
 }
 
-.card.card.san-andreas {
+.card.san-andreas {
   background-image: url(../img/card-san-andreas.jpg);
   background-size: cover;
 }
 
 .card.san-andreas header h3 {
   width: 263px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 .card.paraiba {
