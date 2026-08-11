@@ -72,4 +72,8 @@
   .card header span {
     font-size: 40px;
   }
+
+  .card.san-andreas header h3 {
+    width: 524px;
+  }
 }
