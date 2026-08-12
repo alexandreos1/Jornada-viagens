@@ -1,3 +1,10 @@
+.oferta-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
 .card {
   color: var(--text-secondary-color);
   background-color: black;
@@ -59,7 +66,23 @@
   background-size: cover;
 }
 
+@media screen and (min-width: 768px) {
+  .oferta-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
 @media screen and (min-width: 1024px) {
+  .card {
+    width: 420px;
+    height: 308px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
   .card {
     width: 588px;
     height: 308px;
