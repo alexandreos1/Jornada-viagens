@@ -40,13 +40,15 @@
 }
 
 .card.japao {
-  background-image: url(../img/card-japao.jpg);
-  background-size: cover;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url(../img/card-japao.jpg) center / cover;
 }
 
 .card.san-andreas {
-  background-image: url(../img/card-san-andreas.jpg);
-  background-size: cover;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url(../img/card-san-andreas.jpg) center / cover;
 }
 
 .card.san-andreas header h3 {
@@ -57,14 +59,18 @@
 }
 
 .card.paraiba {
-  background-image: url(../img/card-paraiba.jpg);
-  background-size: cover;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url(../img/card-paraiba.jpg) center / cover;
 }
 
 .card.manaus {
-  background-image: url(../img/card-manaus.jpg);
-  background-size: cover;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url(../img/card-manaus.jpg) center / cover;
 }
+
+/* TABLET EM DIANTE */
 
 @media screen and (min-width: 768px) {
   .oferta-cards {
@@ -75,6 +81,8 @@
   }
 }
 
+/* NOTEBOOK / LAPTOP */
+
 @media screen and (min-width: 1024px) {
   .card {
     width: 420px;
@@ -82,9 +90,11 @@
   }
 }
 
-@media screen and (min-width: 1440px) {
+/* DESKTOP */
+
+@media screen and (min-width: 1280px) {
   .card {
-    width: 588px;
+    width: 550px;
     height: 308px;
   }
 
@@ -98,5 +108,14 @@
 
   .card.san-andreas header h3 {
     width: 524px;
+  }
+}
+
+/* TELAS GRANDES */
+
+@media screen and (min-width: 1440px) {
+  .card {
+    width: 588px;
+    height: 308px;
   }
 }
