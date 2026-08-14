@@ -29,4 +29,40 @@
 
 body {
   font-family: "Montserrat";
+  color: var(--text-primary-color);
+}
+
+.section-title h2 {
+  font-size: 32px;
+  font-weight: var(--title-weight);
+  padding: 0px 24px;
+  margin: 0px;
+  text-align: center;
+}
+
+.section-title hr {
+  width: 180px;
+  height: 4px;
+  background-color: var(--secondary-color);
+  margin: 16px auto 32px;
+  border: none;
+}
+
+.button {
+  width: 280px;
+  height: 64px;
+  color: var(--text-secondary-color);
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: var(--title-weight);
+  background-color: var(--secondary-color);
+  border-radius: 16px;
+  display: inline-block;
+  line-height: 64px;
+}
+
+@media screen and (min-width: 1024px) {
+  .button:hover {
+    background-color: var(--primary-color);
+  }
 }
