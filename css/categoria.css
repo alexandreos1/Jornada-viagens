@@ -5,3 +5,35 @@
   gap: 24px;
   margin-top: 24px;
 }
+
+.categorias-cards .card {
+  width: 312px;
+  height: 220px;
+  background-color: var(--background-secondary-color);
+  text-align: center;
+  border-radius: 16px;
+  padding: 41px 16px;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: var(--text-primary-color);
+}
+
+.categorias-cards .card h3 {
+  width: 280px;
+  height: 34px;
+  font-size: 28px;
+  margin-top: 24px;
+  font-weight: var(--title-weight);
+}
+
+.categorias-cards .card.pacotes-internacionais {
+  padding: 24px 16px;
+}
+
+.categorias-cards .card.pacotes-internacionais h3 {
+  height: 68px;
+}
+
+.categorias-cards .card.transfer img {
+  margin: 10px 0 20px;
+}
