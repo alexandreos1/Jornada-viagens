@@ -37,3 +37,54 @@
 .categorias-cards .card.transfer img {
   margin: 10px 0 20px;
 }
+
+/* TABLET EM DIANTE */
+
+@media screen and (min-width: 768px) {
+  .categorias-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+/* NOTEBOOK / LAPTOP */
+
+@media screen and (min-width: 1024px) {
+  .categorias-cards .card {
+    width: 328px;
+  }
+}
+
+/* DESKTOP */
+
+@media screen and (min-width: 1280px) {
+  .categorias-cards .card {
+    width: 430px;
+  }
+
+  .categorias-cards .card h3 {
+    width: 398px;
+  }
+}
+
+/* TELAS GRANDES */
+
+@media screen and (min-width: 1440px) {
+  .categorias-cards .card {
+    width: 281.25px;
+  }
+
+  .categorias-cards .card h3 {
+    width: 249.25px;
+  }
+
+  .categorias-cards .card.pacotes-nacionais {
+    padding: 24px 16px;
+  }
+
+  .categorias-cards .card.pacotes-nacionais h3 {
+    height: 68px;
+  }
+}
