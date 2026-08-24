@@ -4,3 +4,25 @@
   position: static;
   padding: 24px 24px;
 }
+
+.img-tokyo-item {
+  height: 360px;
+  width: 312px;
+  background-image: url(../img/Tokyo-mobile.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.img-osaka-item {
+  height: 360px;
+  width: 312px;
+  background-image: url(../img/Osaka-mobile.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.item h4 {
+  font-size: 28px;
+  width: 312px;
+  height: 34px;
+}
