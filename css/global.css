@@ -32,6 +32,11 @@ body {
   color: var(--text-primary-color);
 }
 
+.section-title {
+  width: 280px;
+  margin: 0 auto;
+}
+
 .section-title h2 {
   font-size: 32px;
   font-weight: var(--title-weight);
@@ -59,6 +64,13 @@ body {
   border-radius: 16px;
   display: inline-block;
   line-height: 64px;
+}
+
+@media screen and (min-width: 768px) {
+  .section-title {
+    width: 100%;
+    margin: 0 auto;
+  }
 }
 
 @media screen and (min-width: 1024px) {
