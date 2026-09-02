@@ -1,0 +1,17 @@
+.pagamento {
+  margin: 0px 24px 88px 24px;
+}
+
+.texto-content h3 {
+  width: 312px;
+  height: auto;
+  font-size: 28px;
+  font-weight: var(--title-weight);
+  margin-bottom: 24px;
+}
+
+.texto-content p {
+  width: 312px;
+  font-size: 20px;
+  font-weight: var(--text-weight);
+}
