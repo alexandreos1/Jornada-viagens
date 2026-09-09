@@ -14,4 +14,36 @@
   width: 312px;
   font-size: 20px;
   font-weight: var(--text-weight);
+  margin-bottom: 24px;
+}
+
+.imagem.mala {
+  background-image: url(../img/mala-mobile.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.imagem.passaporte {
+  background-image: url(../img/passaporte-mobile.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.imagem.pessoas {
+  background-image: url(../img/pessoas-mobile.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.imagem.pessoas {
+  grid-column: span 2;
+}
+
+.imagem-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 24px;
+  grid-row-gap: 24px;
+  height: 460px;
 }
