@@ -1,0 +1,116 @@
+.pagamento {
+  margin: 0px 24px 88px 24px;
+}
+
+.texto-content h3 {
+  width: 312px;
+  height: auto;
+  font-size: 28px;
+  font-weight: var(--title-weight);
+  margin-bottom: 24px;
+}
+
+.texto-content p {
+  width: 312px;
+  font-size: 20px;
+  font-weight: var(--text-weight);
+  margin-bottom: 24px;
+}
+
+.imagem.mala {
+  background-image: url(../img/mala-mobile.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.imagem.passaporte {
+  background-image: url(../img/passaporte-mobile.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.imagem.pessoas {
+  background-image: url(../img/pessoas-mobile.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.imagem.pessoas {
+  grid-column: span 2;
+}
+
+.imagem-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 24px;
+  grid-row-gap: 24px;
+  height: 460px;
+  width: 100%;
+}
+
+/* TABLET EM DIANTE */
+
+@media screen and (min-width: 768px) {
+  .pagamento {
+    margin: 0px 60px 88px 60px;
+  }
+
+  .texto-content h3 {
+    width: auto;
+  }
+
+  .texto-content p {
+    width: auto;
+  }
+
+  .imagem.mala {
+    background-image: url(../img/mala-tablet.png);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .imagem.passaporte {
+    background-image: url(../img/passaporte-tablet.png);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .imagem.pessoas {
+    background-image: url(../img/pessoas-tablet.png);
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+/* TELAS GRANDES */
+
+@media screen and (min-width: 1440px) {
+  .pagamento {
+    margin: 0px 121.5px 104px 121.5px;
+  }
+  .content-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .texto-content {
+    margin-right: 23px;
+  }
+
+  .texto-content h3 {
+    width: 285px;
+    height: 68px;
+  }
+
+  .texto-content p {
+    width: 361px;
+    height: 128px;
+  }
+
+  .imagem-content {
+    width: 790px;
+  }
+}
