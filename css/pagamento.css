@@ -46,4 +46,71 @@
   grid-column-gap: 24px;
   grid-row-gap: 24px;
   height: 460px;
+  width: 100%;
+}
+
+/* TABLET EM DIANTE */
+
+@media screen and (min-width: 768px) {
+  .pagamento {
+    margin: 0px 60px 88px 60px;
+  }
+
+  .texto-content h3 {
+    width: auto;
+  }
+
+  .texto-content p {
+    width: auto;
+  }
+
+  .imagem.mala {
+    background-image: url(../img/mala-tablet.png);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .imagem.passaporte {
+    background-image: url(../img/passaporte-tablet.png);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .imagem.pessoas {
+    background-image: url(../img/pessoas-tablet.png);
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+/* TELAS GRANDES */
+
+@media screen and (min-width: 1440px) {
+  .pagamento {
+    margin: 0px 121.5px 104px 121.5px;
+  }
+  .content-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .texto-content {
+    margin-right: 23px;
+  }
+
+  .texto-content h3 {
+    width: 285px;
+    height: 68px;
+  }
+
+  .texto-content p {
+    width: 361px;
+    height: 128px;
+  }
+
+  .imagem-content {
+    width: 790px;
+  }
 }
