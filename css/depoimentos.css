@@ -4,3 +4,51 @@
   position: static;
   padding: 0;
 }
+
+.depoimentos-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  margin: 0px 24px 88px 24px;
+}
+
+.depoimentos-container article header p {
+  font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 8px;
+}
+
+.depoimentos-container footer {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.depoimentos-container footer img {
+  width: 86px;
+  height: 86px;
+}
+
+.depoimentos-container footer .perfil-content h4 {
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: var(--title-weight);
+  margin-bottom: 8px;
+}
+
+.depoimentos-container footer .perfil-content .avaliacao {
+  height: 32px;
+}
+
+.depoimentos-container footer .perfil-content .avaliacao .star {
+  font-size: 38px;
+  line-height: 32px;
+  color: var(--secondary-color);
+}
+
+@media screen and (min-width: 1440px) {
+  .depoimentos-container {
+    flex-direction: row;
+  }
+}
