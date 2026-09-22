@@ -47,8 +47,20 @@
   color: var(--secondary-color);
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 768px) {
+  .depoimentos-container {
+    margin: 0px 60px 88px 60px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
   .depoimentos-container {
     flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .depoimentos-container {
+    margin: 0px 120px 88px 120px;
   }
 }
