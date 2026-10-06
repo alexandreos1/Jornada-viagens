@@ -1,7 +1,16 @@
 .hero-img {
   height: 400px;
   width: 100%;
+}
+
+.hero .hero-img {
   background-image: url(../img/hero-mobile.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.botton-hero .hero-img {
+  background-image: url(../img/botton-hero-img-mobile.png);
   background-size: cover;
   background-position: center;
 }
@@ -16,10 +25,18 @@
 }
 
 @media screen and (min-width: 768px) {
-  .hero-img {
+  .hero .hero-img {
     height: 620px;
     width: 100%;
     background-image: url(../img/hero-tablet.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .botton-hero .hero-img {
+    height: 400px;
+    width: 100%;
+    background-image: url(../img/botton-hero-img-tablet.png);
     background-size: cover;
     background-position: center;
   }
@@ -32,10 +49,18 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .hero-img {
+  .hero .hero-img {
     height: 620px;
     width: 100%;
     background-image: url(../img/hero-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .botton-hero .hero-img {
+    height: 600px;
+    width: 100%;
+    background-image: url(../img/botton-hero-img-desktop.png);
     background-size: cover;
     background-position: center;
   }
