@@ -1,0 +1,5 @@
+@media screen and (min-width: 768px) {
+  .list-links li a[aria-current="page"] {
+    text-decoration: underline;
+  }
+}
