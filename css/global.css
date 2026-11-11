@@ -37,6 +37,13 @@ body {
   margin: 0 auto;
 }
 
+.section-title h1 {
+  font-size: 48px;
+  font-weight: var(--title-weight);
+  color: var(--text-secondary-color);
+  text-align: left;
+}
+
 .section-title h2 {
   font-size: 32px;
   font-weight: var(--title-weight);
